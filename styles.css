@@ -34,7 +34,7 @@ header nav a:hover {
 
 .overview-hero {
 /*background-color: #f8f8f8;* made it default for now since it will be modified later.*/
-padding: 40px 0;
+padding: 42px 0;
 }
 
 .overview-hero .container {
@@ -61,3 +61,42 @@ padding: 40px 0;
 {
     margin-top: 10px;
 }*/
+
+.learn-about {
+    padding: 6px 0;
+    /*background-color: #ffffff; */
+}
+
+.learn-about h2 {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.learn-about .cards {
+    display: grid;                           /* enable grid layout */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100px;                            /* keep consistent image size */
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.card-body h3 {
+    margin: 10px 0;
+}
+
+.card-body p {
+    /*color: #555;*/
+    /*font-size:1;
+    line-height: 1.5;*/
+}
