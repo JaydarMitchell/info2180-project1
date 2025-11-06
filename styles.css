@@ -136,3 +136,48 @@ padding: 42px 0;
 .cta .btn:hover {
     /*background-color: #000000;*/
 }
+.stories {
+    padding: 60px 0;
+}
+
+.stories h2 {
+    text-align: left;
+    margin-bottom: 42px;
+}
+
+.stories article {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;                     /* space between image and text */
+    margin-bottom: 42px;           /* spacing between articles */
+}
+
+.stories article img {
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.article-body h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.article-body p {
+    margin: 0 0 10px 0;
+    line-height: 1.6;
+    /*color: #555;*/
+}
+
+.article-body a {
+    color: #777bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.article-body a:hover {
+    text-decoration: underline;
+}
+
