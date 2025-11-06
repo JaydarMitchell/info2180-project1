@@ -1,11 +1,33 @@
-/* Add your CSS to this file */
-body {
-    margin: 0;
-    font-size: 16px;
+header {
+    background-color: #f8f8f8; /* optional, just for clarity */
+    padding: 10px 0;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
+
+header .container {
+    display: flex;                /* flexbox is enabled */
+    justify-content: space-between;
+    align-items: center;           /* vertically center  items them */
+}
+
+header h1 {
+    margin: 0;                     /* remove default spacing */
+}
+
+header nav ul {
+    list-style: none;              /* remove bullet points */
+    display: flex;                 /* make list horizontal */
+    margin: 0;
+    padding: 0;
+    gap: 25px;                     /* space between items */
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #007bff;                /*hover color added for the items that appear as links */
 }
