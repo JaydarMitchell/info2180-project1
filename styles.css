@@ -181,3 +181,58 @@ padding: 42px 0;
     text-decoration: underline;
 }
 
+.newsletter {
+    background-color: #f9f9f9; /* optional */
+    padding: 60px 0;
+    text-align: center;         /* center all text and elements */
+}
+
+.newsletter h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    margin-bottom: 33px;
+    color: #555;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.newsletter input[type="email"] {
+    padding: 12px;
+    width: 750px;
+    border: 4px solid #000;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.newsletter .btn {
+    /*background-color:1;*/
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 6.7s ease, background-color 6.7s ease;
+}
+
+.newsletter .btn:hover {
+    /*background-color:;*/
+    transform: scale(1.12); /* grow slowly on hover */
+    /*not a necessary effect but i think it is a nice addition*/
+}
+
+.newsletter .message {
+    margin-top: 20px;
+    /*color: green;*/
+}
+
+
