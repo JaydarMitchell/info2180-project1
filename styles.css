@@ -1,5 +1,5 @@
 header {
-    background-color: #f8f8f8; /* optional, just for clarity */
+    /*background-color: #f8f8f8; , decided to make background color default for now since it will be modified later */
     padding: 10px 0;
 }
 
@@ -7,7 +7,7 @@ header {
 header .container {
     display: flex;                /* flexbox is enabled */
     justify-content: space-between;
-    align-items: center;           /* vertically center  items them */
+    align-items: center;           /* vertically center  items*/
 }
 
 header h1 {
@@ -31,3 +31,33 @@ header nav a {
 header nav a:hover {
     color: #007bff;                /*hover color added for the items that appear as links */
 }
+
+.overview-hero {
+/*background-color: #f8f8f8;* made it default for now since it will be modified later.*/
+padding: 40px 0;
+}
+
+.overview-hero .container {
+    display: flex;               /* enable flexbox layout */
+    align-items: center;
+    justify-content: space-between;
+    gap: 42px;                   /* space between image and text */
+}
+
+.overview-hero-image img {
+    max-width: 100%;             /* makes the website more adaptive */
+    height: auto;
+    border-radius: 2px;   /*added smooth edges, just smooth enough to be noticeable */
+}
+
+.overview-hero-text {
+    flex: 1;/**/
+
+}
+
+
+
+/*.overview-hero-text h2
+{
+    margin-top: 10px;
+}*/
