@@ -1,6 +1,12 @@
 header {
-    /*background-color: #f8f8f8; , decided to make background color default for now since it will be modified later */
+    background-color: white;
     padding: 10px 0;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
 }
 
 
@@ -11,6 +17,7 @@ header .container {
 }
 
 header h1 {
+    padding-left: 15px;
     margin: 0;                     /* remove default spacing */
 }
 
@@ -24,16 +31,16 @@ header nav ul {
 
 header nav a {
     text-decoration: none;
-    color: black;
+    color: #6b7280;
     font-weight: 500;
 }
 
 header nav a:hover {
-    color: #007bff;                /*hover color added for the items that appear as links */
+    color: #5A67D8;                /*hover color added for the items that appear as links */
 }
 
 .overview-hero {
-/*background-color: #f8f8f8;* made it default for now since it will be modified later.*/
+background-color: #E2E8F0;
 padding: 42px 0;
 }
 
@@ -47,7 +54,8 @@ padding: 42px 0;
 .overview-hero-image img {
     max-width: 100%;             /* makes the website more adaptive */
     height: auto;
-    border-radius: 2px;   /*added smooth edges, just smooth enough to be noticeable */
+    border-radius: 2px; /*added smooth edges, just smooth enough to be noticeable */
+    margin-left: 102px;
 }
 
 .overview-hero-text {
@@ -68,18 +76,24 @@ padding: 42px 0;
 }
 
 .learn-about h2 {
+    padding-left: 15px;
     text-align: left;
     margin-bottom: 40px;
+    font-size: 24px;
+    color: #48BB78;
+
 }
 
 .learn-about .cards {
     display: grid;                           /* enable grid layout */
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    border-color: #E2E8F0;
+
 }
 
 .card {
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 6px 7px rgba(0,0,0,0.1);
@@ -92,6 +106,8 @@ padding: 42px 0;
 }
 
 .card-body h3 {
+    color: #48BB78;
+    font-size: 21px;
     margin: 10px 0;
 }
 
@@ -101,7 +117,8 @@ padding: 42px 0;
     line-height: 1.5;*/
 }
 .testing {
-    background-color: #f000f0;
+    color:white;
+    background-color: #4A5568;
     padding: 69px 0;
 }
 
@@ -117,20 +134,22 @@ padding: 42px 0;
 }
 
 .testing-desciption h2 {
+    padding-left: 50px;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
 .testing-desciption p {
+    padding-left: 50px;
     margin: 0;
     line-height: 1.5;
 }
 
 .cta .btn {
-    background-color: #000000;
+    background-color: #48BB78;
     color: white;
     padding: 12px 24px;
-    border-radius: 6px;
+    border-radius: 5px;
     font-weight: 600;
 }
 .cta .btn:hover {
@@ -141,11 +160,17 @@ padding: 42px 0;
 }
 
 .stories h2 {
+    color:#5A67D8;
     text-align: left;
     margin-bottom: 42px;
+    padding-left:35px;
+}
+.stories h3{
+    font-size: 18px;
 }
 
 .stories article {
+
     display: flex;
     align-items: flex-start;
     gap: 20px;                     /* space between image and text */
@@ -153,16 +178,16 @@ padding: 42px 0;
 }
 
 .stories article img {
+    padding-left: 5px;
     width: 150px;
     height: 150px;
-    border-radius: 2px;
+    border-radius: 200px;
     object-fit: cover;
 }
 
 .article-body h3 {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 1.2rem;
 }
 
 .article-body p {
@@ -182,7 +207,7 @@ padding: 42px 0;
 }
 
 .newsletter {
-    background-color: #f9f9f9; /* optional */
+    background-color: #48BB78; /*mandatory*/
     padding: 60px 0;
     text-align: center;         /* center all text and elements */
 }
@@ -214,7 +239,7 @@ padding: 42px 0;
 }
 
 .newsletter .btn {
-    /*background-color:1;*/
+    background-color: #5A67D8;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -225,7 +250,7 @@ padding: 42px 0;
 }
 
 .newsletter .btn:hover {
-    /*background-color:;*/
+    background-color: #50A0E9;
     transform: scale(1.12); /* grow slowly on hover */
     /*not a necessary effect but i think it is a nice addition*/
 }
@@ -235,4 +260,14 @@ padding: 42px 0;
     /*color: green;*/
 }
 
+footer{
+    padding:20px;
+    background-color: #4A5568;
+    color:white;
+}
 
+footer p{
+
+
+
+}
